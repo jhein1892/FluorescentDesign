@@ -142,8 +142,9 @@ color: #1D1D1D;
   margin-right: 8px;
 }
 
-.sizes button:hover{
-  background: #818181;
+button:hover{
+  background: black;
+  color: white;
 }
 
 .colors p{

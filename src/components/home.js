@@ -43,54 +43,55 @@ export default function Home(){
       <div className='sizes'>
         <button
         name='small'
-        onFocus={(e) => {
-          handleSizeChange('small')
-          e.target.style.background = 'black'
-          e.target.style.color = 'white'
-        }
-        }
-        onBlur={(e) => {
-          e.target.style.background = '#F1F1F1'
-          e.target.style.color = 'black'
-        }}
+        // onFocus={(e) => {
+        //   handleSizeChange('small')
+        //   e.target.style.background = 'black'
+        //   e.target.style.color = 'white'
+        // }
+        // }
+        // onBlur={(e) => {
+        //   e.target.style.background = '#F1F1F1'
+        //   e.target.style.color = 'black'
+        // }}
         >Small</button>
         <button
         name='medium'
-        onFocus={(e) => {
-          handleSizeChange('medium')
-          e.target.style.background = 'black'
-          e.target.style.color = 'white'
-        }
-        }
-        onBlur={(e) => {
-          e.target.style.background = '#F1F1F1'
-          e.target.style.color = 'black'
-        }}
+        // onFocus={(e) => {
+        //   handleSizeChange('medium')
+        //   e.target.style.background = 'black'
+        //   e.target.style.color = 'white'
+        // }
+        // }
+        // onBlur={(e) => {
+        //   e.target.style.background = '#F1F1F1'
+        //   e.target.style.color = 'black'
+        // }}
         >Medium</button>
         <button
         name='large'
-        onFocus={(e) => {
-          handleSizeChange('medium')
-          e.target.style.background = 'black'
-          e.target.style.color = 'white'
-        }
-        }
-        onBlur={(e) => {
-          e.target.style.background = '#F1F1F1'
-          e.target.style.color = 'black'
-        }}>Large</button>
+        // onFocus={(e) => {
+        //   handleSizeChange('medium')
+        //   e.target.style.background = 'black'
+        //   e.target.style.color = 'white'
+        // }
+        // }
+        // onBlur={(e) => {
+        //   e.target.style.background = '#F1F1F1'
+        //   e.target.style.color = 'black'
+        // }}
+        >Large</button>
         <button
         name='ExtraLarge'
-        onFocus={(e) => {
-          handleSizeChange('medium')
-          e.target.style.background = 'black'
-          e.target.style.color = 'white'
-        }
-        }
-        onBlur={(e) => {
-          e.target.style.background = '#F1F1F1'
-          e.target.style.color = 'black'
-        }}
+        // onFocus={(e) => {
+        //   handleSizeChange('medium')
+        //   e.target.style.background = 'black'
+        //   e.target.style.color = 'white'
+        // }
+        // }
+        // onBlur={(e) => {
+        //   e.target.style.background = '#F1F1F1'
+        //   e.target.style.color = 'black'
+        // }}
         >Extra Large</button>
       </div>
       <div className='colors'>

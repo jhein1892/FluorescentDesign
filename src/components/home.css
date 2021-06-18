@@ -1,0 +1,215 @@
+#redCleat{
+  position: absolute;
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 39px;  
+}
+
+#greenCleat{
+  position: absolute;
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 1133px;
+}
+
+#blueCleat{
+  position: absolute;
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 2227px;
+  margin-bottom: 47px;
+}
+
+#productName{
+  position: absolute;
+  width: 226px;
+  height: 32px;
+  left: 1004px;
+  top: 80px;
+  
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  display: flex;
+  align-items: center;
+}
+
+.price{
+  position: absolute;
+  height: 24px;
+  width: 55px;
+  left: 1004px;
+  top: 116px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.sizeLabel{
+  position: absolute;
+width: 28px;
+height: 28px;
+left: 1004px;
+top: 180px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+/* Body */
+color: #1D1D1D;
+}
+
+.sizes{
+  position: absolute;  
+  left: 1004px;
+  top: 216px;
+  border-bottom: 1px solid #DFDFDF;
+  padding-bottom: 20px;
+}
+
+.sizes button{
+  background: #F1F1F1;
+  border-radius: 38px;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+}
+
+.sizes button:hover{
+  background: #818181;
+}
+
+.colors p{
+  position: absolute;
+  width: 44px;
+  height: 28px;
+  left: 1004px;
+  top: 296px;
+  
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  }
+
+
+  
+  .redCircle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29.42px;
+    height: 29.42px;
+    left: 1005.29px;
+    top: 333.29px;
+    border-radius: 50%;
+      /* Body */
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    }
+  .redCircle:hover{
+    border: 1px solid black;
+  }
+  .innerRed{
+    position: absolute;
+    width: 22.63px;
+    height: 22.63px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #8A3D28 50%, #AC5941 50%);
+  }
+
+
+  .greenCircle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29.42px;
+    height: 29.42px;
+    left: 1041.29px;
+    top: 333.29px;
+    border-radius: 50%;
+      /* Body */
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+  }
+  .greenCircle:hover{
+    border: 1px solid black;
+  }
+
+  .innerGreen{
+    position: absolute;
+    width: 22.63px;
+    height: 22.63px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #1F737E 50%, #419FAC 50%);
+  }
+
+  .blueCircle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29.42px;
+    height: 29.42px;
+    left: 1077.29px;
+    top: 332px;
+    border-radius: 50%;
+      /* Body */
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+  }
+  .blueCircle:hover{
+    border: 1px solid black;
+  }
+
+  .innerBlue{
+    position: absolute;
+    width: 22.63px;
+    height: 22.63px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #1F2E7E 50%, #416CAC 50%);
+  }
+
+  .transparentRec{
+    /* position: absolute; */
+    width: 24.89px;
+    height: 52.04px;
+    left: 1037.6px;
+    top: 330.4px;
+    mix-blend-mode: overlay;
+    background: #AC5941;
+    transform: rotate(45deg);
+  }
+
+  .toCart{
+    position: absolute;
+    width: 376px;
+    height: 48px;
+    left: 1004px;
+    top: 404px;
+    border-radius: 28px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+  }

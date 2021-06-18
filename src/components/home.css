@@ -1,4 +1,5 @@
-#redCleat{
+.red_wrapper{
+  overflow: hidden;
   position: absolute;
   width: 904px;
   height: 1074px;
@@ -6,7 +7,8 @@
   top: 39px;  
 }
 
-#greenCleat{
+.green_wrapper{
+  overflow: hidden;
   position: absolute;
   width: 904px;
   height: 1074px;
@@ -14,7 +16,8 @@
   top: 1133px;
 }
 
-#blueCleat{
+.blue_wrapper{
+  overflow: hidden;
   position: absolute;
   width: 904px;
   height: 1074px;
@@ -22,6 +25,57 @@
   top: 2227px;
   margin-bottom: 47px;
 }
+
+
+#redCleat{
+  /* position: absolute; */
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 39px;  
+}
+
+#redCleat:hover{
+  cursor: zoom-in;
+  transform: scale(1.35);
+}
+
+#greenCleat{
+  /* position: absolute; */
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 1133px;
+}
+#greenCleat:hover{
+  cursor:zoom-in;
+  transform: scale(1.35);
+}
+
+#blueCleat{
+  /* position: absolute; */
+  width: 904px;
+  height: 1074px;
+  left: 40px;
+  top: 2227px;
+  margin-bottom: 47px;
+}
+
+#blueCleat:hover{
+  cursor: zoom-in;
+  transform: scale(1.35);
+}
+
+.preview{
+  margin-top: 10px;
+	border:1px solid black;
+	width:350px;
+	height:500px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 #productName{
   position: absolute;
